@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 --version)",
+      "Bash(pip3 show:*)",
+      "Bash(pip3 list:*)",
+      "Bash(pip3 index:*)",
+      "Bash(python3:*)",
+      "Bash(git init:*)",
+      "Bash(pip3 install:*)",
+      "Bash(ffprobe -v quiet -print_format json -show_format -show_streams data/output/test_real_botsort_tracked.mp4)",
+      "Bash(ls:*)"
+    ]
+  }
+}
